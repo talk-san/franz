@@ -10,9 +10,9 @@ Franz is a project that integrates Kafka messaging with a MySQL database using S
 
 ## Overview
 
-The Franz project provides functionality to process CustomRequests received from an endpoint. Here's a breakdown of what it does:
+The Franz project provides functionality to process CustomerRequests received from an endpoint. Here's a breakdown of what it does:
 
-1. **Receive CustomRequest**: The application listens for HTTP POST requests on the endpoint [http://localhost:8080/api/v1/kafka/publish](http://localhost:8080/api/v1/kafka/publish) containing `firstName` and `lastName` parameters.
+1. **Receive CustomerRequest**: The application listens for HTTP POST requests on the endpoint [http://localhost:8080/api/v1/kafka/publish](http://localhost:8080/api/v1/kafka/publish) containing `firstName` and `lastName` parameters.
 
 2. **Create Customer Object**: Upon receiving a request, the application creates a `Customer` object using the provided `firstName` and `lastName`.
 
